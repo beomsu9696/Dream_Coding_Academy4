@@ -1,9 +1,5 @@
-/* Universal tags */
-* {
-  box-sizing: border-box;
-}
-
 /* Global */
+
 :root {
   /* Color */
   --color-white: #ffffff;
