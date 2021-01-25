@@ -56,9 +56,6 @@ button {
 
   /* Size */
   --size-border-radius: 4px;
-
-  /* Animation */
-  --animation-duration: 300ms;
 }
 
 /* Typography */
@@ -182,7 +179,7 @@ p {
 }
 
 .major__icon i {
-  transition: all var(--animation-duration) ease;
+  transition: all 300ms ease;
 }
 
 .major__icon:hover i {
@@ -197,27 +194,4 @@ p {
 
 .major__description {
   font-size: var(--font-small);
-}
-
-.job {
-  display: flex;
-  align-items: center;
-}
-
-.job__description {
-  margin: 0 16px;
-  text-align: left;
-}
-
-.job__name,
-.job__period {
-  color: var(--color-light-grey);
-}
-
-.job__name {
-  font-size: var(--font-small);
-}
-
-.job__period {
-  font-size: var(--font-micro);
 }

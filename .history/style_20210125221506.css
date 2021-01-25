@@ -215,9 +215,5 @@ p {
 }
 
 .job__name {
-  font-size: var(--font-small);
-}
-
-.job__period {
   font-size: var(--font-micro);
 }
