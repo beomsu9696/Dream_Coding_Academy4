@@ -18,14 +18,6 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-
-button {
-  outline: none;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-}
-
 /* Global */
 :root {
   /* Color */
@@ -124,29 +116,5 @@ p {
 
 /* Home */
 #home {
-  background: center/cover no-repeat url(images/homebackground.png);
-  padding: 40px;
-  text-align: center;
-}
-
-.home__avatar {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 2px solid var(--color-light-white);
-}
-
-.home__title,
-.home__description {
-  color: var(--color-white);
-}
-
-.home__contact {
-  color: var(--color-white);
-  font-size: var(--font-regular);
-  font-weight: var(--weight-bold);
-  margin: 24px;
-  padding: 8px 12px;
-  border: 2px solid var(--color-white);
-  border-radius: var(--size-border-radius);
+  background-image: url(image/homebackground.png);
 }
