@@ -44,8 +44,6 @@ document.addEventListener("scroll", () => {
     arrowUp.classList.remove("visible");
   }
 });
-
-// Handle click on the 'arrow up' button
 arrowUp.addEventListener("click", () => {
   scrollIntoView("#home");
 });

@@ -485,7 +485,7 @@ p {
 
 .arrow-up.visible {
   opacity: 1;
-  pointer-events: auto;
+  cursor: pointer;
 }
 
 /* For below 768px screen width */
