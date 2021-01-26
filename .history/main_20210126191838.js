@@ -60,16 +60,14 @@ workBtnContainer.addEventListener("click", (e) => {
     return;
   }
   projectContainer.classList.add("anim-out");
-  setTimeout(() => {
-    projects.forEach((project) => {
-      if (filter === "*" || filter === project.dataset.type) {
-        project.classList.remove("invisible");
-      } else {
-        project.classList.add("invisible");
-      }
-    });
-    projectContainer.classList.remove("anim-out");
-  }, 300);
+  projects.forEach((project) => {
+    if (filter === "*" || filter === project.dataset.type) {
+      project.classList.remove("invisible");
+    } else {
+      project.classList.add("invisible");
+    }
+  });
+  setTimeout(() => {}, 300);
 });
 
 function scrollIntoView(selector) {
