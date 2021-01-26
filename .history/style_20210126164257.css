@@ -486,14 +486,6 @@ p {
   .skillset {
     flex-direction: column;
   }
-
-  .project {
-    flex-grow: 1;
-  }
-  .testmonial__avatar {
-    width: 80px;
-    height: 80px;
-  }
 }
 
 @media screen and (max-width: 970px) {

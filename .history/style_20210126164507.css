@@ -490,16 +490,13 @@ p {
   .project {
     flex-grow: 1;
   }
-  .testmonial__avatar {
-    width: 80px;
-    height: 80px;
-  }
 }
 
 @media screen and (max-width: 970px) {
   .work__categories {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
   }
 
   .category__btn:nth-child(even),
