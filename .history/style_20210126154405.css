@@ -358,7 +358,7 @@ p {
 }
 
 .project:hover .project__description {
-  transform: translateY(0px);
+  transform: translateY(10px);
   opacity: 0.8;
 }
 

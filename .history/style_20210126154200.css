@@ -328,9 +328,6 @@ p {
 
 .project {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 280px;
   height: 250px;
   margin: 2px;
@@ -352,13 +349,6 @@ p {
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all var(--animation-duration) ease-in;
-}
-
-.project:hover .project__description {
-  transform: translateY(0px);
   opacity: 0.8;
 }
 
