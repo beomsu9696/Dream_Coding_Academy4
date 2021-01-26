@@ -19,7 +19,6 @@ navbarMenu.addEventListener("click", (event) => {
   if (link == undefined) {
     return;
   }
-  navbarMenu.classList.remove("open");
   scrollIntoView(link);
 });
 
