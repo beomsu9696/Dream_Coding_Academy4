@@ -414,7 +414,3 @@ p {
 .testimonial__speech-bubble p {
   color: var(--color-light-grey);
 }
-
-.testimonial__speech-bubble a {
-  color: pink;
-}
