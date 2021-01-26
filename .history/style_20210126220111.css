@@ -542,7 +542,6 @@ p {
 
   .section {
     padding: 16px;
-    padding-top: 40px;
   }
 
   .about__majors {
@@ -606,5 +605,9 @@ p {
   .category__btn:nth-child(even),
   .category__btn:nth-child(3) {
     margin-top: 4px;
+  }
+
+  .category__count {
+    top: 50px;
   }
 }

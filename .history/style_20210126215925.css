@@ -338,7 +338,7 @@ p {
   display: inline-block;
   position: absolute;
   top: -20px;
-  right: 16px;
+  right: 8px;
   opacity: 0;
   transition: all var(--animation-duration) ease-in;
 }
@@ -542,7 +542,6 @@ p {
 
   .section {
     padding: 16px;
-    padding-top: 40px;
   }
 
   .about__majors {
