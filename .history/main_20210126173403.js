@@ -19,6 +19,5 @@ navbarMenu.addEventListener("click", (event) => {
   if (link == undefined) {
     return;
   }
-  const scrollTo = document.querySelector(link);
-  scrollTo.scrollIntoView({ behavior: "smooth" });
+  console.log(event.target.dataset.link);
 });
