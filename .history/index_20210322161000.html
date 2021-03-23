@@ -6,7 +6,7 @@
     <title>김범수 포트폴리오</title>
     <meta name="description" content="Portfolio" />
     <meta name="author" content="Beomsu" />
-    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <script
       src="https://kit.fontawesome.com/c90a48a564.js"
       crossorigin="anonymous"
@@ -31,7 +31,7 @@
         <li class="navbar__menu__item" data-link="#about">소개</li>
         <li class="navbar__menu__item" data-link="#skills">기술</li>
         <li class="navbar__menu__item" data-link="#work">프로젝트</li>
-        <li class="navbar__menu__item" data-link="#etc">README</li>
+        <li class="navbar__menu__item" data-link="#testimonials">게임</li>
         <li class="navbar__menu__item" data-link="#contact">연락처</li>
       </ul>
       <!-- Togglle button -->
@@ -194,7 +194,7 @@
               </ul>
             </div>
             <div class="etc">
-              <h3 class="skillset__title">README</h3>
+              <h3 class="skillset__title">기타</h3>
               <ul class="etc__list">
                 <li><span>Git</span></li>
                 <li><span>Expo</span></li>
@@ -213,18 +213,18 @@
           <button class="category__btn selected" data-filter="*">
             All <span class="category__count">8</span>
           </button>
-          <button class="category__btn" data-filter="front-end">
+          <button class="category__btn" data-filter="front-end1">
             Front-end <span class="category__count">1</span>
           </button>
-          <button class="category__btn" data-filter="back-end">
-            Back-end <span class="category__count">1</span>
+          <button class="category__btn" data-filter="front-end2">
+            Front-end <span class="category__count">1</span>
           </button>
-          <button class="category__btn" data-filter="mobile">
-            Mobile <span class="category__count">1</span>
+          <button class="category__btn" data-filter="front-end3">
+            Front-end <span class="category__count">1</span>
           </button>
         </div>
         <div class="work__projects">
-          <a href="#" class="project" target="_blank" data-type="front-end">
+          <a href="#" class="project" target="_blank" data-type="front-end1">
             <img
               class="project__img"
               src="images/projects/project1.png"
@@ -235,7 +235,7 @@
               <span>Clone coding with HTML and CSS</span>
             </div>
           </a>
-          <a href="#" class="project" target="_blank" data-type="back-end">
+          <a href="#" class="project" target="_blank" data-type="front-end2">
             <img
               class="project__img"
               src="images/projects/project2.png"
@@ -246,7 +246,7 @@
               <span>Clone coding with HTML and CSS</span>
             </div>
           </a>
-          <a href="#" class="project" target="_blank" data-type="mobile">
+          <a href="#" class="project" target="_blank" data-type="front-end3">
             <img
               class="project__img"
               src="images/projects/project3.png"
@@ -315,11 +315,45 @@
         </div>
       </div>
     </section>
-    <!-- Etc -->
-    <section id="etc" class="section">
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
       <div class="section__container">
-        <h1>README</h1>
+        <h1>게임</h1>
         <h3>-</h3>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img
+              src="images/pig.jpg"
+              alt="People"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis sequi mollitia odit commodi, neque illo. Voluptatum
+                possimus illum qui dolores optio porro ipsa doloribus atque
+                tenetur voluptas, distinctio nulla sit?
+              </p>
+              <p class="name"><a href="#">Man</a>Google</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis sequi mollitia odit commodi, neque illo. Voluptatum
+                possimus illum qui dolores optio porro ipsa doloribus atque
+                tenetur voluptas, distinctio nulla sit?
+              </p>
+              <p class="name"><a href="#">Man</a>Google</p>
+            </div>
+            <img
+              src="images/pig.jpg"
+              alt="People"
+              class="testimonial__avatar"
+            />
+          </div>
+        </div>
       </div>
     </section>
     <!-- Contact -->
