@@ -147,12 +147,12 @@ p {
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
-  display: none;jㅓㅓㅓ
+  display: none;
 }
 
 .navbar__logo__img {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 /* Home */

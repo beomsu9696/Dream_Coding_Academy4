@@ -120,6 +120,7 @@ p {
 }
 
 .navbar__logo {
+  position: relative;
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
 }
@@ -147,12 +148,11 @@ p {
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
-  display: none;jㅓㅓㅓ
+  display: none;
 }
 
 .navbar__logo__img {
-  width: 24px;
-  height: 24px;
+  position: absolute;
 }
 
 /* Home */
