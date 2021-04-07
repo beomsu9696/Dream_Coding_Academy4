@@ -316,12 +316,10 @@ p {
   background-color: var(--color-grey);
 }
 
-.tools{
+.tools,
+.etc {
   padding: 20px;
 }
-/* .etc {
-  padding: 20px;
-} */
 
 /* Work */
 .work__categories {
